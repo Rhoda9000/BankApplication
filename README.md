@@ -1,2 +1,3 @@
 # BankApplication
-A Basic C# Bank Application
+This Basic C# Bank Application allows the user to Deposit , Withdraw and display account details
+![BankApplication](https://github.com/Rhoda9000/BankApplication/blob/master/Capture.PNG "How the output would look like")
