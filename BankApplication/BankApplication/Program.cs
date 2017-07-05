@@ -45,7 +45,7 @@ namespace BankApplication
 
                     case 2:
                         Console.WriteLine("How Much Do You Want To Deposit?");
-                        double x = int.Parse(Console.ReadLine());
+                        double x = double.Parse(Console.ReadLine());
                         Account.Deposit(x);
                         Console.WriteLine("\n");
                         Console.WriteLine("You Have Deposited R" + x);
@@ -54,7 +54,7 @@ namespace BankApplication
 
                     case 3:
                         Console.WriteLine("How Much Do You Want To Withdraw?");
-                        double y = int.Parse(Console.ReadLine());
+                        double y = double.Parse(Console.ReadLine());
                         Account.Withdraw(y);                       
                         Console.WriteLine("\n");
                         break;
